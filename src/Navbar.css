@@ -9,7 +9,7 @@
 
 
 /* device small */
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 600px) {
     .logo_header{
         width: 20vw;
     }
@@ -28,7 +28,7 @@
 
 
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 600px) {
   .creating{
     display: none;
   }

@@ -11,7 +11,7 @@
     top: 23rem;
     left: 2rem;
     font-size: 20px;
-    color: bisque;
+    color: white;
   }
   
   .title2_image{
@@ -28,7 +28,7 @@
   
   
   
-  @media only screen and (max-width: 980px) {
+  @media only screen and (max-width: 600px) {
     .header_image{
       width: 96vw
     }
