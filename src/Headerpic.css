@@ -1,0 +1,44 @@
+.header_image{
+    width: 98vw;
+    height: 35vw;
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+  }
+  
+  .title_image{
+    font-weight: bold;
+    position: absolute;
+    top: 23rem;
+    left: 2rem;
+    font-size: 20px;
+    color: bisque;
+  }
+  
+  .title2_image{
+    position: absolute;
+    top: 25rem;
+    left: 2rem;
+    color: white;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 980px) {
+    .header_image{
+      width: 96vw
+    }
+    
+    .title_image{
+      top: 8rem
+    }
+  
+    .title2_image{
+      top: 10rem
+    }
+    
+  }

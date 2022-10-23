@@ -1,0 +1,63 @@
+.group_drop{
+    display: flex;
+    gap: 2rem;
+    border-bottom: 1px solid gray;
+    height: 3rem;
+}
+
+.button_group{
+    padding-right: 0.5rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: blue;
+    color: white;
+}
+
+.group_icon{
+    font-size: 20px;
+    margin-right: 0.5rem;
+}
+
+
+
+.location{
+   border-bottom: 0.5px solid gray;
+   margin-top: 2rem;
+   padding-bottom: 0.5rem;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.location_icon{
+    font-size: 1.3rem;
+}
+
+.location_name{
+    font-weight: bold;
+    margin-left: 1rem;
+    padding-right: 5rem;
+    font-size: 12px;
+    border: transparent;
+}
+
+.location_pencil{
+    margin-left: 0.3rem;
+}
+
+
+.location_note{
+    color: gray;
+    margin-top: 2rem;
+}
+
+.note_icon{
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 980px) {
+    .join_group{
+        display: none;
+    }
+    
+  }

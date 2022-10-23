@@ -1,0 +1,35 @@
+.logo_header{
+    width: 10vw;
+}
+
+.search_bar{
+    display: flex;
+}
+
+
+
+/* device small */
+@media only screen and (max-width: 980px) {
+    .logo_header{
+        width: 20vw;
+    }
+
+    .nav_dropdown{
+        position: absolute;
+        right:0
+    }
+    .nav_main{
+        display: none;
+    }
+    .search_bar{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-width: 980px) {
+  .creating{
+    display: none;
+  }
+}
