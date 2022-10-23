@@ -28,7 +28,7 @@
   
   
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 980px) {
     .header_image{
       width: 96vw
     }
