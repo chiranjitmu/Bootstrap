@@ -6,7 +6,7 @@ function Cards() {
   return (
     <div className='cards'>
     <Card  style={{ width: '70vw', marginLeft: '3rem', marginBottom:'2rem' }}>
-      <Card.Img variant="top" src="./Laptop.jpg" style={{ height: '25vw' }}/>
+      <Card.Img variant="top" src="./Forest.jpg" style={{ height: '25vw' }}/>
       <Card.Body>
         <Card.Title>✍️Article</Card.Title>
         <Card.Text style={{ fontWeight: 'bold', display: 'flex', flexDirection: 'row', marginTop: '2rem'}}>
