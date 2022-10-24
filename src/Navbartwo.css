@@ -1,0 +1,11 @@
+
+
+
+@media only screen and (min-width: 980px) {
+    .signup{
+      display: none;
+    }
+    .signin{
+        display: none;
+    }
+  }

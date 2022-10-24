@@ -57,7 +57,7 @@ function NavScroll() {
        
         </Navbar.Collapse>
       </Container>
-    </Navbar>  
+    </Navbar>   
 
 
             </>
