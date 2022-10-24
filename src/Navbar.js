@@ -14,11 +14,10 @@ function NavScroll() {
     <Navbar bg="light">
       <Container fluid>
         <img src='./Logo.jpg' alt='LOGO' className='logo_header'></img>
-        <div className='creating'>
-         <Signup />
-         <Signin />
+         <div className='creating'>
+         <Signup className='signup'/>
+         <Signin className='signin'/>
          </div>
-
 
 
         <Navbar.Collapse id="navbarScroll">
