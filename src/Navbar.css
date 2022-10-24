@@ -6,6 +6,10 @@
     display: flex;
 }
 
+.creating{
+    position: absolute;
+    right: 2rem;
+}
 
 
 /* device small */

@@ -11,13 +11,16 @@ import Signup from './Signup';
 function NavScroll() {
   return (
     <>
-    <Navbar bg="light"  expand="lg">
+    <Navbar bg="light">
       <Container fluid>
         <img src='./Logo.jpg' alt='LOGO' className='logo_header'></img>
         <div className='creating'>
          <Signup />
          <Signin />
          </div>
+
+
+
         <Navbar.Collapse id="navbarScroll">
 
 
@@ -36,8 +39,8 @@ function NavScroll() {
 
 
             
-                  
-        <Nav
+
+         <Nav
             className="nav_main"
             style={{ maxHeight: '100px' }}
             navbarScroll
@@ -50,6 +53,8 @@ function NavScroll() {
               <NavDropdown.Item  style={{backgroundColor: 'white'}}><Signin /></NavDropdown.Item>             
             </NavDropdown>              
           </Nav>
+                  
+       
         </Navbar.Collapse>
       </Container>
     </Navbar>  
