@@ -27,7 +27,7 @@ npm install
 npm start
 ```
 
-Open the app in your web browser to experience the js-tigers app.
+Open the app in your web browser to experience the Bootstrap app.
 
 ### Acknowledgments
 
